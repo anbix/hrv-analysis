@@ -38,14 +38,6 @@
 ![Скаттерограмма Пуанкаре](figures/fig3_scatterogram.png)
 ![Вариационная пульсограмма](figures/fig1_histogram.png)
 
-## Как запустить
-
-```bash
-git clone https://github.com/<username>/hrv-analysis.git
-cd hrv-analysis
-pip install -r requirements.txt
-jupyter notebook hrv_pipeline.ipynb
-```
 
 ## Структура
 
@@ -60,20 +52,4 @@ hrv-analysis/
 └── LICENSE
 ```
 
-## Свои данные
 
-Замени `data/rr_intervals.csv` на файл с одним столбцом RR-интервалов в миллисекундах (без заголовка). Строки, начинающиеся с `#`, игнорируются.
-
-## Литература
-
-- Bayevsky R. M. (2001). Analysis of heart rate variability in space medicine. *Human Physiology*.
-- Task Force of the European Society of Cardiology (1996). Heart rate variability. *Circulation*, 93(5), 1043–1065.
-- Shaffer F., Ginsberg J. P. (2017). An overview of heart rate variability metrics and norms. *Frontiers in Public Health*, 5:258.
-
-## Автор
-
-Анастасия Бирдина · birdinanastia@gmail.com
-
-## Лицензия
-
-MIT — см. [LICENSE](LICENSE).
