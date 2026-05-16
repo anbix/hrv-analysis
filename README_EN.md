@@ -38,15 +38,6 @@ PARS score following the Bayevsky standard.
 ![Poincaré plot](figures/fig3_scatterogram.png)
 ![Variational pulsogram](figures/fig1_histogram.png)
 
-## How to run
-
-```bash
-git clone https://github.com/<username>/hrv-analysis.git
-cd hrv-analysis
-pip install -r requirements.txt
-jupyter notebook hrv_pipeline.ipynb
-```
-
 ## Structure
 
 ```
@@ -59,21 +50,3 @@ hrv-analysis/
 ├── README.md / README_EN.md
 └── LICENSE
 ```
-
-## Using your own data
-
-Replace `data/rr_intervals.csv` with a single-column file of RR-intervals in milliseconds (no header). Lines starting with `#` are ignored.
-
-## References
-
-- Bayevsky R. M. (2001). Analysis of heart rate variability in space medicine. *Human Physiology*.
-- Task Force of the European Society of Cardiology (1996). Heart rate variability. *Circulation*, 93(5), 1043–1065.
-- Shaffer F., Ginsberg J. P. (2017). An overview of heart rate variability metrics and norms. *Frontiers in Public Health*, 5:258.
-
-## Author
-
-Anastasiia Birdina · birdinanastia@gmail.com
-
-## License
-
-MIT — see [LICENSE](LICENSE).
